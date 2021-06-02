@@ -38,7 +38,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    '🔰 Share the Grp link 🔰', url="https://t.me/share/url?url=https://t.me/m_oviezUP4"
                                 )
                         ]
                     ]
