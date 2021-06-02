@@ -30,7 +30,7 @@ async def start(bot, update):
             await bot.send_document(
                 chat_id=update.chat.id,
                 document = file_id,
-                caption = caption,
+                caption = f"{file_name} \n group:@m_oviezUP4",
                 parse_mode="html",
                 reply_to_message_id=update.message_id,
                 reply_markup=InlineKeyboardMarkup(
@@ -38,7 +38,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🔰 Share the Grp link 🔰', url="https://t.me/share/url?url=https://t.me/m_oviezUP4"
+                                    '🔰 Share the Group link 🔰', url="https://t.me/share/url?url=https://t.me/m_oviezUP4"
                                 )
                         ]
                     ]
