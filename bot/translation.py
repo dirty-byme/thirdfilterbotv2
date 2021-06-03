@@ -14,7 +14,7 @@ class Translation(object):
 @m_oviezUP4</i></b>
 """
     
-    ABOUT_TEXT = """<b>➥ Name</b> : <code> Auto Filter Bot</code>
+    ABOUT_TEXT = """<b>➥ Name</b> : <code> ™ᴘᴜƦᴜ𝘴ʜᴜ </code>
     
 <b>➥ Creator</b> : <b><i><a href="https://t.me/d_i_r_ty">Dirty HIT_TG</a></i></b>
 
