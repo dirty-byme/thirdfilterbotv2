@@ -76,7 +76,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    'Developers', url="https://t.me/m_oviezUP4"
                                 )
                         ]
                     ]
@@ -90,7 +90,7 @@ async def start(bot, update):
 
     buttons = [[
         InlineKeyboardButton('Developers 🛠️', url='https://t.me/d_i_r_ty'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot-V2')
+        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/dirty-byme/thirdfilterbotv2')
     ],[
         InlineKeyboardButton('Main channel 🎬', url='https://t.me/upload4movieuff')
     ],[
