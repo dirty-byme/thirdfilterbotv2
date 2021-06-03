@@ -30,7 +30,7 @@ async def start(bot, update):
             await bot.send_document(
                 chat_id=update.chat.id,
                 document = file_id,
-                caption = f"{file_name} \n\n ┈•••✿  @m_oviezUP4 ✿•••┈ \n\n\n ➠Gʀᴏᴜᴘ :https://t.me/joinchat/m_oviezUP4 \n\n\n ┈•••✿  @m_oviezUP4 ✿•••┈",
+                caption = f"{file_name} \n\n ┈•••✿  @m_oviezUP4 ✿•••┈ \n\n\n ➠Gʀᴏᴜᴘ :https://t.me/m_oviezUP4 \n\n ┈•••✿  @m_oviezUP4 ✿•••┈",
                 parse_mode="html",
                 reply_to_message_id=update.message_id,
                 reply_markup=InlineKeyboardMarkup(
@@ -38,7 +38,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🔰 Share the Group link 🔰', url="https://t.me/share/url?url=https://t.me/m_oviezUP4"
+                                    '🔰 Share & Support 🔰', url="https://t.me/share/url?url=https://t.me/m_oviezUP4"
                                 )
                         ]
                     ]
@@ -57,7 +57,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    '🔰 Share & Support 🔰', url="https://t.me/share/url?url=https://t.me/m_oviezUP4"
                                 )
                         ]
                     ]
@@ -89,10 +89,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
+        InlineKeyboardButton('Developers 🛠️', url='https://t.me/d_i_r_ty'),
         InlineKeyboardButton('Source Code 🧾', url ='https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot-V2')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+        InlineKeyboardButton('Main channel 🎬', url='https://t.me/upload4movieuff')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
