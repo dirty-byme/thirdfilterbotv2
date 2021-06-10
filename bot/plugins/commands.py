@@ -30,7 +30,7 @@ async def start(bot, update):
             await bot.send_document(
                 chat_id=update.chat.id,
                 document = file_id,
-                caption = f"{file_name} \n\n ┈•••✿  @m_oviezUP4 ✿•••┈ \n\n\n ➠Gʀᴏᴜᴘ :https://t.me/m_oviezUP4 \n\n ┈•••✿  @m_oviezUP4 ✿•••┈",
+                caption = f"{file_name} \n <i>🔰👉 കൂടുതൽ സിനിമകൾക്കും മറ്റു വിവരങ്ങൾക്കുമായി ഞങ്ങളുടെ Groupൽ ജോയിൻ ചെയ്യൂക</i> \n\n\n ┈••✿ 🔰 @m_oviezUP4 🔰 ✿••┈ \n\n ➠𝐂ʜᴀɴɴᴇʟ : https://t.me/MzUp_All\n\n➠𝐂ʜᴀɴɴᴇʟ : https://t.me/MzUp_All \n\n\n ┈••✿ 🔰 @m_oviezUP4 🔰 ✿••┈ \n\n 🌟༺ ──•◈•─ ─•◈•──༻🌟",
                 parse_mode="html",
                 reply_to_message_id=update.message_id,
                 reply_markup=InlineKeyboardMarkup(
