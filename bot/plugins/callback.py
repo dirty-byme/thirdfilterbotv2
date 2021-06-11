@@ -142,7 +142,9 @@ async def cb_navg(bot, update: CallbackQuery):
     
     reply_markup = InlineKeyboardMarkup(temp_results)
     
-    text=f"<i>Found</i> <code>{leng}</code> <i> \n Request ചെയ്ത file കിട്ടിയില്ലെങ്കിൽ പിന്നിട് അഡ്മിൻ തരുന്നതായിരിക്കും☺️ \n Results For Your Request:</i> <code>{query}</code>"
+    text=f"<i>Found</i> <code>{leng}</code> <i> \n\n
+ Request ചെയ്ത file കിട്ടിയില്ലെങ്കിൽ പിന്നിട് അഡ്മിൻ തരുന്നതായിരിക്കും☺️ \n\n 
+💡Results For Your Request:</i> <code>{query}</code>"
         
     try:
         await update.message.edit(
