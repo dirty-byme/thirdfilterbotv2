@@ -147,7 +147,7 @@ async def auto_filter(bot, update):
         if len_result != 1:
             result[0].append(
                 [
-                    InlineKeyboardButton("Next ⏩", callback_data=f"navigate(0|next|{query})")
+                    InlineKeyboardButton("Go to Next page ⏩", callback_data=f"navigate(0|next|{query})")
                 ]
             )
         
@@ -203,7 +203,7 @@ async def auto_filter(bot, update):
         try:
             await bot.send_message(
                 chat_id = update.chat.id,
-                text=f"Found {(len_results)} <i> \n\n\n Request ചെയ്ത file കിട്ടിയില്ലെങ്കിൽ പിന്നിട് അഡ്മിൻ തരുന്നതായിരിക്കും☺️ \n\n 💡Results For Your Request:</i> <code>{query}</code>",
+                text=f"Found {(len_results)} <i> \n\n Request ചെയ്ത file കിട്ടിയില്ലെങ്കിൽ പിന്നിട് അഡ്മിൻ തരുന്നതായിരിക്കും☺️ \n @m_oviezUP4 \n\n 💡Results For Your Request:</i> <code>{query}</code>",
                 reply_markup=reply_markup,
                 parse_mode="html",
                 reply_to_message_id=update.message_id
