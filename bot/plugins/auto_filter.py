@@ -81,7 +81,7 @@ async def auto_filter(bot, update):
             file_size = "" if file_size == ("[0 B]") else file_size
             
             # add emoji down below inside " " if you want..
-            button_text = f"{file_size}{file_name}"
+            button_text = f"{file_size}«🎬»{file_name}"
             
 
             if file_type == "video":
@@ -188,7 +188,7 @@ async def auto_filter(bot, update):
 
                 else:
                     ibuttons[-1].append(
-                        InlineKeyboardButton(f"⚜ {chat_name} ⚜", url=invite_link)
+                        InlineKeyboardButton(f"⚜ How to download 🕊️ ⚜", url=https://t.me/m_oviezUP4/7346)
                     )
                 
             for x in ibuttons:
