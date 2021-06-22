@@ -188,7 +188,7 @@ async def auto_filter(bot, update):
 
                 else:
                     ibuttons[-1].append(
-                        InlineKeyboardButton(f"⚜ How to download 🕊️ ⚜", url=https://t.me/m_oviezUP4/7346)
+                        InlineKeyboardButton(f"⚜ {chat_name} ⚜", url=invite_link)
                     )
                 
             for x in ibuttons:
