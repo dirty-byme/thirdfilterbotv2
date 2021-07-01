@@ -142,7 +142,7 @@ async def cb_navg(bot, update: CallbackQuery):
     
     reply_markup = InlineKeyboardMarkup(temp_results)
     
-    text=f"<i>Found</i> <code>{leng}</code> <i> \n\n Request ചെയ്ത file കിട്ടിയില്ലെങ്കിൽ പിന്നിട് അഡ്മിൻ തരുന്നതായിരിക്കും☺️ \n @m_oviezUP4 \n\n 💡Results For Your Request:</i> <code>{query}</code>"
+    text=f"<i>Found</i> <code>{leng}</code> <i> \n\n Request ചെയ്ത file കിട്ടിയില്ലെങ്കിൽ പിന്നിട് അഡ്മിൻ തരുന്നതായിരിക്കും☺️ \n <b><i><a href="https://t.me/cinematalkz/64">How to Get file </a></i></b> \n\n 💡Results For Your Request:</i> <code>{query}</code>"
         
     try:
         await update.message.edit(
