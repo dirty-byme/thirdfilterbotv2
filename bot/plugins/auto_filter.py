@@ -214,7 +214,7 @@ async def auto_filter(bot, update):
         
         except Exception as e:
             print(e)
-By
+
 
 async def gen_invite_links(db, group_id, bot, update):
     """
