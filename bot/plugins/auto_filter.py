@@ -203,7 +203,7 @@ async def auto_filter(bot, update):
         try:
             await bot.send_message(
                 chat_id = update.chat.id,
-                text=f"Found {(len_results)} <i> \n\n Request ചെയ്ത file കിട്ടിയില്ലെങ്കിൽ പിന്നിട് അഡ്മിൻ തരുന്നതായിരിക്കും☺️ \n <b><i><a href="https://t.me/cinematalkz/64">how to get file </a></i></b> \n\n 💡Results For Your Request:</i> <code>{query}</code>",
+                text=f"Found {(len_results)} <i> \n\n Request ചെയ്ത file കിട്ടിയില്ലെങ്കിൽ പിന്നിട് അഡ്മിൻ തരുന്നതായിരിക്കും☺️ \n @m_oviezup4 \n\n 💡Results For Your Request:</i> <code>{query}</code>",
                 reply_markup=reply_markup,
                 parse_mode="html",
                 reply_to_message_id=update.message_id
@@ -214,7 +214,7 @@ async def auto_filter(bot, update):
         
         except Exception as e:
             print(e)
-
+By
 
 async def gen_invite_links(db, group_id, bot, update):
     """
